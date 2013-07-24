@@ -67,7 +67,6 @@ html {
   /* 1 */
   color: #000;
   /* 2 */
-  font-family: sans-serif;
   /* 3 */
   -ms-text-size-adjust: 100%;
   /* 4 */
@@ -7374,7 +7373,7 @@ section.projects {
   margin-left: 20px;
   margin-bottom: 15px;
   margin-top: 15px;
-  color: rgb(0, 174, 209); 
+  color: rgb(0, 174, 209);
 }
 .project-box .hovered .description {
   margin-left: 20px;
@@ -7386,7 +7385,7 @@ section.projects {
   position:absolute;
   bottom:0;
   left:30px;
-  background:rgb(0, 174, 209); 
+  background:rgb(0, 174, 209);
   border: none;
   width: 80%;
   padding: 2px;
@@ -7408,4 +7407,6 @@ section.projects {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-
+html, body, p, h1, h2, h3, h4{
+  font-family: 'Ubuntu', sans-serif;
+  }
