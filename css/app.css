@@ -7263,3 +7263,149 @@ footer p.copyright {
 footer ul.inline-list {
   margin: 0;
 }
+
+.project-box, .course-box .hovered {
+  width: 293.33333px;
+  height: 220px;
+  float: left;
+  /*
+      @media screen and (min-width: 980px){
+          width: (940px/3 - 20); //double margin
+      }
+      @media screen and (min-width: 1200px){
+          width: (1170px/3 - 20); //double margin
+      }
+      @media screen and (max-width: 660px){
+          width: 100%;
+          height: $projectBlockHeight/2;
+          .project-cover {
+              width: 30%;
+              overflow: auto;
+              float: left;
+          }
+          .projecttitle, .description {
+              width:60% !important;
+              margin-left: 15px;
+              float: left;
+          }
+      }
+      */
+}
+
+section.projects {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.project-box {
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  border: 1px solid #e1e6eb;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.project-box .course-cover {
+  height: 210px;
+  overflow-y: hidden;
+}
+.project-box .description {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #3D3D3D;
+}
+@media screen and (max-width: 660px) {
+  .project-box .pricetag {
+    margin-top: 8px;
+    margin-left: 0px;
+    left: 0;
+    top: 0;
+    background: white;
+    padding: 3px;
+    width: 35px;
+  }
+}
+.project-box:hover .hovered {
+  top: -1px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.project-box .hovered {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  top: 220px;
+  position: absolute;
+  background-color: #002933;
+  background: rgba(0, 41, 51, 0.89);
+  border: 1px solid #e1e6eb;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  height:220px;
+}
+.project-box .hovered h4 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: rgb(0, 174, 209); 
+}
+.project-box .hovered .description {
+  margin-left: 20px;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 14px;
+}
+.project-box .hovered button {
+  position:absolute;
+  bottom:0;
+  left:30px;
+  background:rgb(0, 174, 209); 
+  border: none;
+  width: 80%;
+  padding: 2px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.project-box .hovered button:hover {
+  background: white;
+  color: #0088c0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
