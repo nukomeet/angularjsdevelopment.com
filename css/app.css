@@ -7408,4 +7408,20 @@ section.projects {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
+header{
+    background: none;
+    margin-bottom:100px;
+}
+header .top-bar{
+    background: none;
+}
+h1{
+    text-align: center;
+    font-size:36px;
+    padding:80px 0;
+}
+
+h2{
+    font-size:20px;
+}
 
